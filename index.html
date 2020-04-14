@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Familia</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div id="restantes">
+
+            <div id="sobre">
+
+                <h2>Este e um quiz sobre nossa familia. Foi feito baseado  no que eu acho de voces. Entao caso de errado, foi mal kkkkkkkk</h2>
+
+            </div>
+
+            <div id="infos">
+
+                <h2>Como jogar:</h2>
+                <br>
+
+                <p>Quando tiver <b>certeza</b> da sua resposta, marque uma das caixinhas daquela pergunta e, quando marcar a ultima pergunta tera o resultado.</p>
+                <br>
+                <p> &nbsp; &nbsp; Para ser justo, so me dei o direito de duvida em uma das respostas de voces.</p>
+
+                <button onclick="comecar()" ></button>
+                <p>Aperte para jogar</p>
+
+
+            </div>
+
+        </div>
+
+        <div id="perguntas" >
+
+            <div id="antes">
+
+                <h2 id="aperte">Aperte o botao para comecar!</h2>
+                
+            </div>
+
+            <div class="flex-col">
+
+                <div id="p1" class="questoes">
+
+                    1 - Qual sua data comemorativa favorita?
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="" id="" onclick="r1(1)" > Carnaval
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id=""  onclick="r1(2)" > Natal
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id=""  onclick="r1(3)" > Seu aniversario
+                    <br>
+                    <br>
+
+                </div>
+
+                <div id="p2" class="questoes">
+
+                    2 - Qual seu presente de aniversario favorito?
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="" id="" onclick="r2(1)"  > Roupa
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id="" onclick="r2(2)"  > Brinquedo
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id="" onclick="r2(3)"  > dinheiro
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id="" onclick="r2(4)"  > objetos
+
+                </div>
+
+                <div id="p3" class="questoes">
+
+                    3 - O que prefere?
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="" id="" onclick="r3(1)" > Serie
+                    <br>
+                    <br>
+                    <input type="checkbox" name="" id="" onclick="r3(2)" > Filme
+                    <br>
+                    <br>
+                    
+                </div>
+
+            </div>
+
+            <script src="main.js"></script>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
