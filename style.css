@@ -2,15 +2,27 @@
 
 @media only screen and (max-width: 800px) {
     
-    body,h1, h2, p {
+    body,h1, p {
 
-        font-size: 6pt;
+        font-size: 5pt;
+
+    }
+
+    h2 {
+
+        font-size: 4pt;
 
     }
 
     #aperte {
 
         font-size: 10pt;
+
+    }
+
+    .container {
+
+        grid-column-gap: 10px;
 
     }
 
